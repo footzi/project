@@ -1,0 +1,46 @@
+{
+  "name": "vlad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8080 --192.168.0.9"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "file-loader": "^0.9.0",
+    "jquery": "*",
+    "less": "*",
+    "materialize": "^1.0.0",
+    "materialize-css": "^0.97.8",
+    "popup": "0.0.3",
+    "react": "^15.4.1",
+    "react-button": "^1.2.1",
+    "react-dom": "*",
+    "react-grid-gallery": "^0.2.9",
+    "react-image-gallery": "^0.7.4",
+    "react-image-gallery-lightbox": "0.0.30",
+    "react-popup": "^0.4.2",
+    "react-responsive-carousel": "^3.0.21",
+    "react-router": "*",
+    "url-loader": "^0.5.7"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "*",
+    "babel": "5.x",
+    "babel-loader": "5.*",
+    "css-loader": "*",
+    "emailjs": "^1.0.8",
+    "file-loader": "*",
+    "json-loader": "*",
+    "less-loader": "*",
+    "react-hot-loader": "*",
+    "style-loader": "*",
+    "url-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  }
+}

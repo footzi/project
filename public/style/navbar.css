@@ -1,0 +1,94 @@
+li {
+        list-style-type: none;
+        margin-bottom:10px;
+
+    }
+    .button-main {
+        display: inline-block;
+        background-image: url("../image/button-main.png");
+        width:184px;
+        height: 65px;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        
+    }
+    .button-catalog {
+        background-image: url("../image/button-catalog.png");
+        background-repeat: no-repeat;
+        width:184px;
+        height: 390px;
+        padding-top:5px;
+
+    }
+    
+    .button-main-name {
+        position: relative;
+        top:5px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        color:#1f5c13;
+        
+        
+    }
+
+    .button-title{
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+    .button-catalog-name, .button-catalog-name-lev {
+        display: inline-block;
+        color:#1f5c13;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-size: 17px;
+        font-weight:bolder;
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+
+    .button-catalog-name{
+        margin-left:12px;
+
+    }
+    .button-catalog-name-lev {
+        margin-left: 40px;
+
+    }
+    span {
+        margin-left: 13px;
+    }
+
+   .button-link {
+      text-decoration: none;
+      color:#1f5c13;
+    }
+     .button-link:hover {
+      text-decoration: none;
+      color:black;
+    }
+    .button-main-name:hover {
+      text-decoration: none;
+      color:black;
+    }
+    .button-main-name:hover {
+      text-decoration: none;
+      color:black;
+    }
+    .button-link-catalog {
+        text-decoration: none;
+        color:black;
+    }
+    .button-link-catalog:hover {
+        text-decoration: none;
+        color:#1f5c13;
+    }
+
+
+

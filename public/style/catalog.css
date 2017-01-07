@@ -1,0 +1,194 @@
+@font-face {
+  font-family: Cambria;
+  src: url(../fonts/cambria.ttc);
+}
+@font-face {
+  font-family: Century;
+  src: url(../fonts/CENTURY.TTF);
+}
+html {
+  height: 2209px;
+  background: url(../image/catalog-fon.jpg) no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+body {
+  background: url(../image/catalog-content-fon.png) no-repeat;
+  width: 1170px;
+  height: 2209px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 0px solid red;
+  margin-top: 0;
+}
+header {
+  height: 220px;
+  outline: 0px solid red;
+}
+.logo {
+  outline: 0px solid red;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  top: -5px;
+}
+.banner {
+  outline: 0px solid blue;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  z-index: 1;
+}
+.sign-in {
+  text-align: right;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+.search {
+  position: relative;
+  z-index: 2;
+  outline: 0px solid red;
+  margin-left: 67px;
+  font-size: 23px;
+  font-family: Century;
+  font-weight: bold;
+  margin-top: 120px;
+  float: left;
+}
+.search .search-text {
+  margin-top: 0;
+}
+.search input {
+  position: relative;
+  width: 136px;
+  height: 22px;
+  background-color: #ccffcc;
+  border: #ccffcc;
+  top: -15px;
+}
+.search p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+#navbar {
+  z-index: 1;
+  width: 16%;
+  position: relative;
+  top:10px;
+  left:45px;
+  
+}
+
+.flower {
+  position: relative;
+  top: -730px;
+  left: -80px;
+}
+.flower2 {
+  position: relative;
+  top: -420px;
+  right: -115px;
+  z-index: 1;
+}
+.button-main-name-mk {
+  position: relative;
+  z-index:2;
+}
+.cart {
+  outline: 0px solid red;
+  position: relative;
+  width: 15%;
+  float: left;
+  top: -320px;
+  left: 50px;
+}
+.cart img {
+  float: left;
+}
+.cart p {
+  font-family: Century;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f5c13;
+  text-align: center;
+}
+#frame {
+  outline: 0px solid red;
+  background: url(../image/catalog-frame.png) no-repeat;
+  position: relative;
+  float: right;
+  width: 958px;
+  height: 1370px;
+  top: -1175px;
+  left: 3px;
+}
+#content {
+  margin-left: 95px;
+  margin-right: 80px;
+
+}
+.glass {
+  outline: 0px solid red;
+  height: 1055px;
+  width: 300px;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.glass-title {
+  margin-bottom: 30px;
+}
+.glass-item {
+  margin: 0 10px 40px 10px;
+}
+.handmade {
+  outline: 0px solid red;
+  height: 1055px;
+  width: 310px;
+  position: relative;
+  top: -905px;
+  left: 510px;
+}
+.handmade-item {
+  margin: 0 16px 40px 16px;
+}
+.handmade-title {
+  margin-bottom: 33px;
+}
+#frame-news {
+  padding-top: 120px;
+  background: url(../image/frame-news.png) no-repeat;
+  position: relative;
+  width: 939px;
+  height: 530px;
+  margin-left: 230px;
+  top: 100px;
+}
+footer {
+  background: url(../image/footer.png) no-repeat;
+  width: 1170px;
+  height: 518px;
+  position: relative;
+  top: -415px;
+  z-index: 1;
+}
+.icons {
+  outline: 0px solid blue;
+  position: absolute;
+  top: 460px;
+  right: 100px;
+}
+.icons ul {
+  list-style-type: none;
+}
+.icons ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+
+
+
+
+
+   
