@@ -81,8 +81,8 @@ header {
 
 .flower {
   position: relative;
-  top: -730px;
-  left: -80px;
+  top: -758px;
+  left: -82px;
 }
 .flower2 {
   position: relative;
@@ -169,7 +169,7 @@ footer {
   width: 1170px;
   height: 518px;
   position: relative;
-  top: -415px;
+  top: -412px;
   z-index: 1;
 }
 .icons {
