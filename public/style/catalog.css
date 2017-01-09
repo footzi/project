@@ -8,12 +8,13 @@
 }
 html {
   height: 2209px;
-  background: url(../image/catalog-fon.jpg) no-repeat;
+  background: url(../image/catalog-fon.jpg);
   background-position: center;
   background-size: 100% 100%;
+  overflow-x: hidden;
 }
 body {
-  background: url(../image/catalog-content-fon.png) no-repeat;
+  background: url(../image/content-fon.png);
   width: 1170px;
   height: 2209px;
   margin-left: auto;

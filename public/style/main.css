@@ -11,9 +11,10 @@ html {
   background: url(../image/main-fon.jpg) no-repeat;
   background-position: center;
   background-size: 100% 100%;
+  overflow-x: hidden;
 }
 body {
-  background: url(../image/content-fon.png) no-repeat;
+  background: url(../image/content-fon.png);
   width: 1170px;
   height: 1865px;
   margin-left: auto;
@@ -85,7 +86,7 @@ header {
 }
 .flower2 {
   position: relative;
-  top: -432x;
+  top: -432px;
   right: -124px;
   z-index: 1;
 }
@@ -115,7 +116,7 @@ header {
   width: 957px;
   height: 960px;
   top: -845px;
-  outline:4px solid red;
+  outline:0px solid red;
 }
 .text {
   outline: 0px solid red;
@@ -150,14 +151,15 @@ header {
   width: 939px;
   height: 530px;
   margin-left: 230px;
-  top: 100px;
+  top: 92px;
+  padding-top: 120px;
 }
 footer {
   background: url(../image/footer.png) no-repeat;
   width: 1170px;
   height: 518px;
   position: relative;
-  top: -306px;
+  top: -426px;
   z-index: 1;
 }
 .icons {
