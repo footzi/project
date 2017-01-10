@@ -102,6 +102,7 @@ header {
   float: left;
   top: -320px;
   left: 50px;
+  z-index: 1;
 }
 .cart img {
   float: left;

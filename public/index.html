@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style/navbar.css">  
     <link rel="stylesheet" href="style/carousel.css">
     <link rel="stylesheet" href="style/materialize.css">
-
+    <link rel="stylesheet" href="style/popup.css">
 </head>
 <body>
  <header>
      <div class="sign-in">
-         <a href="#"><img src="image/sign-in.png"></a>
+         <a href="#" class="not-aviable"><img src="image/sign-in.png"></a>
      </div>
      <div class="logo">
          <img src="image/logo.png" >
@@ -63,10 +63,12 @@
      </div>
  </nav>
 
-  <div class="cart">
-     <img src="image/cart.png">
-     <p>Корзина</p>
- </div>
+<a href="#" class="not-aviable">
+    <div class="cart">
+        <img src="image/cart.png">
+        <p>Корзина</p>
+    </div>
+</a>
 
  <selection> 
      <div class="frame">
@@ -93,15 +95,25 @@
              <li><a href="#"> <img src="image/icons/icon-lm.png" width="30px" height="30px"></a></li>
          </ul>
      </div>
+     <div id="test">
+         </div>
  </footer>
+
+<div id="b-popup" id="popup1">
+    <div class="b-popup-content">
+        <p class="not-aviable">Сервис временно не доступен</p>
+        <button className="button-popup">Закрыть</button>
+    </div> 
+</div>
 
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"> </script>
 <script type="text/javascript" src="js/jquery.hashchange.min.js"> </script>
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"> </script>
-
 <script type="text/javascript" src="js/build.js"></script>
+<script>
 
+</script>
 
 </body>
 </html>

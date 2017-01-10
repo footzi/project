@@ -31,7 +31,7 @@ header {
   outline: 0px solid red;
   text-align: center;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 .banner {
   outline: 0px solid blue;
@@ -98,6 +98,7 @@ header {
   float: left;
   top: -334px;
   left: 50px;
+  z-index: 1;
 }
 .cart img {
   float: left;

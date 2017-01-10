@@ -15,13 +15,16 @@ import ProductWatchPage4  from "./Watch/CatalogWatchProductPage4.js"
 import CatalogWatchPage5 from "./Watch/CatalogWatchPage5.js";
 import ProductWatchPage5  from "./Watch/CatalogWatchProductPage5.js" 
 
+
 import "./Carousel.js";  
 import "./HashChange.js";
 import "./Mail.js";  
+import "./PopUpNotAviable.js"
 
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 ReactDOM.render (
+
     <Router history={hashHistory}>
        <Route path="/" component={CatalogApp} />
        <Route path="/angel" component={CatalogAngel} />
