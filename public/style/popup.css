@@ -19,7 +19,7 @@
     z-index:3;
 }
 #b-popup .b-popup-content{
-    background-image: url("../image/form.png");
+    background-color: #bfc7b7;
     margin:40px auto 0px auto;
     width:480px;
     height: 580px;
@@ -35,7 +35,9 @@
 .not-aviable {
     font-size: 30px;
 }
-
+#myform{
+    text-align: center;
+}
 .myform-id{
     display: none;
 }
@@ -45,26 +47,31 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 75, 6);
     font-size: 24px;
+    font-weight: bolder;
 }
 #myform label {
     margin-top: 6px;
     float: left;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 75, 6);
 }
 
 #myform input {
+    padding-left:5px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color:black;
-    background-color: #2d9362;
+    background-color: #bfc7b7;
+    border: 2px solid darkgreen;
     width: 250px;
     height: 30px;
     margin-bottom: 15px;
-
+    margin-right:30px;
 }
+
+
 
 #myform img {
     text-align: right; 
@@ -73,14 +80,29 @@
 }
 #myform div {
     text-align: right;
-    border:2px solid red;
 }
+
+
 #myform button{
     text-align: center;
-    font-size: 20px;
-    background-color: green;
-    width:500px;
-    height: 50px
+    font-family: Arial, Helvetica, sans-serif;
+    color:#a0ac93;
+    font-size: 24px;
+    background-color: #004b06;
+    width:420px;
+    height: 50px;
+    margin-top:46px;
 }
 
+#myform  #info{
+    margin-top:13px;
+    width:420px;
+    height: 115px;
+}
 
+input {outline: none;}
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #bfc7b7 !important; /* Цвет фона */
+    -webkit-text-fill-color: black !important; /* цвет текста */
+    color: black !important; /* цвет текста */
+}

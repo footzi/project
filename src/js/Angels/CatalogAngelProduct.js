@@ -81,11 +81,11 @@ let ProductAngel = React.createClass({
                                 <img src="../image/form-close.png" onClick={closeClick} />
                 
                                 <form id="myform" method="post">
-                                <p className="myform-title">Заказать/Уточнить детали</p>
+                                <p className="myform-title">Заказать / Уточнить детали</p>
                                 
 
                                  <div>
-                                    <input className="myform-id"type="text" name="id"  readonly  value={product.id}/> <br />
+                                    <input className="myform-id" type="text" name="id"  readonly  value={product.id}/> <br />
 
                                      <label>Название:</label>
                                     <input type="text" name="product" readonly value={product.name}/> <br />
@@ -100,8 +100,8 @@ let ProductAngel = React.createClass({
                                     <label>Кол-во</label>
                                     <input type="number" name="quantity" required /> <br />
 
-                                    <label>Доп. информация</label>
-                                    <input type="text" name="info" required /> <br />
+                                     <label>Доп. информация:</label>
+                                    <input type="text" id="info" name="info" required /> 
                                       
                                     
 
