@@ -101,7 +101,7 @@ let ProductAngel = React.createClass({
                                     <input type="number" name="quantity" required /> <br />
 
                                      <label>Доп. информация:</label>
-                                    <input type="text" id="info" name="info" required /> 
+                                    <textarea type="text" id="info" name="info" required /> 
                                       
                                     
 

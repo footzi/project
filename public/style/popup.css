@@ -82,6 +82,18 @@
     text-align: right;
 }
 
+#myform  textarea{
+    margin-right: 30px;
+    margin-top:13px;
+    width:420px;
+    height: 115px;
+    padding-left:5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: #bfc7b7;
+    border: 2px solid darkgreen;
+}
 
 #myform button{
     text-align: center;
@@ -91,14 +103,10 @@
     background-color: #004b06;
     width:420px;
     height: 50px;
-    margin-top:46px;
+    margin-top:63px;
 }
 
-#myform  #info{
-    margin-top:13px;
-    width:420px;
-    height: 115px;
-}
+
 
 input {outline: none;}
 input:-webkit-autofill {
