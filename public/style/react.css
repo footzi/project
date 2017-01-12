@@ -79,7 +79,6 @@
     cursor: pointer;
 }
 .ProductImages {
-    text-align: center;
     outline: 0px solid green;
     background-image: url(/image/catalog/fon-product.png);
     margin:12px 20px 0 20px;

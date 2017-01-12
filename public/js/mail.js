@@ -17,7 +17,7 @@ myform.submit(function(event){
        myform.find("button").text("Отправлено");
     }, function(err) {
        console.log("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-       myform.find("button").text("Send");
+       myform.find("button").text("Oщибка");
     });
   return false;
 });

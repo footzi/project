@@ -31,6 +31,8 @@ let ProductAngel = React.createClass({
   }
 
 
+
+
         return (
             <div>
                 <div className="NameProduct">
@@ -75,32 +77,44 @@ let ProductAngel = React.createClass({
 
               <div id="b-popup">
                 <div className="b-popup-content">
-
-
+                
+                                <img src="../image/form-close.png" onClick={closeClick} />
+                
                                 <form id="myform" method="post">
+                                <p className="myform-title">Заказать/Уточнить детали</p>
+                                
 
-                                <label>ID заказа</label>
-                                    <input type="text" name="id" readonly  value={product.id}/> <br />
+                                 <div>
+                                    <input className="myform-id"type="text" name="id"  readonly  value={product.id}/> <br />
 
-                                     <label>Название изделия:</label>
+                                     <label>Название:</label>
                                     <input type="text" name="product" readonly value={product.name}/> <br />
                                     
-                                    <label>Введите e-mail</label>
-                                    <input type="text" name="email" required /> <br />
-
-                                
-                                    <label>Ваше Имя</label>
+                                    <label>Ваше имя:</label>
                                     <input type="text" name="name" required /> <br />
 
-                                    <label>Ваша Фамилия</label>
-                                    <input type="text" name="surname" required /> <br />
+                                    <label>Ваш e-mail:</label>
+                                    <input type="email" name="email" required /> <br />
 
+                                
+                                    <label>Кол-во</label>
+                                    <input type="number" name="quantity" required /> <br />
+
+                                    <label>Доп. информация</label>
+                                    <input type="text" name="info" required /> <br />
+                                      
                                     
 
-                                    <button className="button-popup">Отправить</button>
+                                 </div>  
+                                 
+                                    <button>Отправить</button>
                                 </form>
+                               
 
-                                <button className="button-popup" onClick={closeClick}> Закрыть </button>
+
+        
+
+                                
                 </div>
              
              </div>

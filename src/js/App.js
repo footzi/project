@@ -18,8 +18,8 @@ import ProductWatchPage5  from "./Watch/CatalogWatchProductPage5.js"
 
 import "./Carousel.js";  
 import "./HashChange.js";
-import "./Mail.js";  
-import "./PopUpNotAviable.js"
+import "./PopUpNotAviable.js";
+
 
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
