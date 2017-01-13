@@ -176,3 +176,83 @@ footer {
   display: inline;
   margin-right: 15px;
 }
+
+
+
+
+
+
+
+/*about*/
+
+.content-main {
+  outline: 2px solid red;
+  width:589px;
+  height: 483px;
+  background-image: url(../image/about.png);
+  position:relative;
+  top:170px;
+  left:160px;
+  padding: 30px;
+}
+
+.content-about {
+  outline: 2px solid red;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color:#2c4610;
+
+}
+.content-about  p {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color:#2c4610;
+}
+.content-about  span {
+  margin:0;
+}
+.content-about div {
+  margin-bottom: 15px;
+}
+.content-contacts{
+  font-size: 16px;
+  font-style: italic;
+}
+#feedbackform {
+  padding-top:20px;
+  padding-left: 20px;
+}
+#feedbackform div{
+  text-align: center;
+}
+.feedback{
+  width: 589px;
+  height: 200px;
+  border:2px solid green;
+}
+
+.feedback-input{
+  margin-left:55px;
+  width: 400px;
+  height: 25px;
+  border-color: darkgreen;
+  margin-bottom: 15px;
+}
+.feedback-textarea{
+  width: 550px;
+  height: 80px;
+  border-color: darkgreen;
+  margin-top: 10px;
+}
+.feedback-button{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#a0ac93;
+    font-size: 18px;
+    background-color: #004b06;
+    width:140px;
+    height: 25px;
+    margin-top:10px;
+}

@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
     <meta charset="utf-8" />
-    <title>Главная</title>
+    <title>О Нас</title>
     <link rel="shortcut icon" href="image/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/main.css">       
@@ -53,7 +53,7 @@
             </li>
 
             <li><div class="button-main">
-                    <a class="button-link" href="contacts.html"> <p class="button-main-name"> Контакты</p> </a>
+                    <a class="button-link"  href="contacts.html"> <p class="button-main-name"> Контакты</p> </a>
                 </div>
             </li>
 
@@ -72,16 +72,35 @@
 
  <selection> 
      <div class="frame">
-         <div class="text">
-            <h1 >Добро пожаловать<br> в нашу семейную мастерскую! </h1>
-            <p>Вам нужен оригинальный подарок или Вы хотите порадовать себя новым предметом интерьера? Тогда Вы на верном пути! Может быть у Вас есть бутылка любимого вина? А ведь именно из неё можно сделать……..часы! Да-да, самые настоящие часы!</p>
-            <p>Подсвечник из разноцветного «леденцового» стекла, подложечница или пепельница из бутылки, «весёлые» стаканы и не только...</p>
-            <p>A так же очень нежные и изящные украшения и невероятно красивые цветочные композиции, сделанные из холодного фарфора и полимерной глины.</p>
+         <div class="content-main">
+             <div class="content-about">
+                 <p>Наши Контакты</p>
+                 <div>
+                    <span> Агафонов Алексей</span>
+                    <span class="content-contacts">тел. <u>+7(953)1733296</u></span>
+                    <span class="content-contacts"> e-mail: <u>footzi@mail.ru</u></span>
+                 </div>
+                 <div>
+                    <span> Агафонова Галина</span>
+                    <span class="content-contacts"> тел. <u>+7(953)1733296</u></span>
+                    <span class="content-contacts"> e-mail: <u>spacy@rambler.ru</u></span>
+                 </div>
+                 <div class="feedback">
+                     <form id="90" method="post">
+                         <label class="feedback-label" >Ваше имя:</label>
+                         <input class="feedback-input" type="text" name="name" required> <br/>
+                         <label>Ваш e-mail:</label>
+                         <input class="feedback-input" type="text" name="email" required> <br/>
+                         <label class="feedback-label">Ваш вопрос:</label>
+                        <textarea class="feedback-textarea" type="text" id="info" name="info" required></textarea>
+                        <div>
+                        <button class="feedback-button">Отправить</button>
+                        </div>
+                     </form>
+                 </div>
+             </div>
+
          </div>
-         <div class="logos">
-             <img src="image/logo-new_format.png">
-             <img src="image/logo-flower_Blues.png">
-        </div>
      </div>
      <div id="frame-news"></div>
  </selection>
@@ -111,6 +130,7 @@
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"> </script>
 <script type="text/javascript" src="js/build.js"></script>
+<script type="text/javascript" src="js/mail-feedbackform.js"></script>
 <script>
 
 </script>

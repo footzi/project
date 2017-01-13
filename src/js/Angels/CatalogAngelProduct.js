@@ -80,34 +80,34 @@ let ProductAngel = React.createClass({
                 
                                 <img src="../image/form-close.png" onClick={closeClick} />
                 
-                                <form id="myform" method="post">
-                                <p className="myform-title">Заказать / Уточнить детали</p>
+                                <form id="orderform" method="post">
+                                <p className="orderform-title">Заказать / Уточнить детали</p>
                                 
 
                                  <div>
-                                    <input className="myform-id" type="text" name="id"  readonly  value={product.id}/> <br />
+                                    <input className="orderform-id" type="text" name="id"  readonly  value={product.id}/> <br />
 
-                                     <label>Название:</label>
-                                    <input type="text" name="product" readonly value={product.name}/> <br />
+                                     <label className="orderform-label">Название:</label>
+                                    <input className="orderform-input" type="text" name="product" readonly value={product.name}/> <br />
                                     
-                                    <label>Ваше имя:</label>
-                                    <input type="text" name="name" required /> <br />
+                                    <label className="orderform-label">Ваше имя:</label>
+                                    <input className="orderform-input" type="text" name="name" required /> <br />
 
-                                    <label>Ваш e-mail:</label>
-                                    <input type="email" name="email" required /> <br />
+                                    <label className="orderform-label">Ваш e-mail:</label>
+                                    <input className="orderform-input" type="email" name="email" required /> <br />
 
                                 
-                                    <label>Кол-во</label>
-                                    <input type="number" name="quantity" required /> <br />
+                                    <label className="orderform-label">Кол-во</label>
+                                    <input className="orderform-input" type="number" name="quantity" required /> <br />
 
-                                     <label>Доп. информация:</label>
-                                    <textarea type="text" id="info" name="info" required /> 
+                                     <label className="orderform-label">Доп. информация:</label>
+                                    <textarea className="orderform-textarea" type="text" id="info" name="info" required /> 
                                       
                                     
 
                                  </div>  
                                  
-                                    <button>Отправить</button>
+                                    <button id="orderform-button">Отправить</button>
                                 </form>
                                
 

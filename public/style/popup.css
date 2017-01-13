@@ -35,13 +35,13 @@
 .not-aviable {
     font-size: 30px;
 }
-#myform{
+#orderform{
     text-align: center;
 }
-.myform-id{
+.orderform-id{
     display: none;
 }
-.myform-title {
+.orderform-title {
     text-align: center;
     margin-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,7 +49,7 @@
     font-size: 24px;
     font-weight: bolder;
 }
-#myform label {
+.orderform-label {
     margin-top: 6px;
     float: left;
     margin-left: 30px;
@@ -58,7 +58,7 @@
     color: rgb(0, 75, 6);
 }
 
-#myform input {
+.orderform-input {
     padding-left:5px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -73,16 +73,16 @@
 
 
 
-#myform img {
+#orderform img {
     text-align: right; 
     cursor: pointer;
 
 }
-#myform div {
+#orderform div {
     text-align: right;
 }
 
-#myform  textarea{
+.orderform-textarea{
     margin-right: 30px;
     margin-top:13px;
     width:420px;
@@ -95,7 +95,7 @@
     border: 2px solid darkgreen;
 }
 
-#myform button{
+#orderform-button{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color:#a0ac93;
