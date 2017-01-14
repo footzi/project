@@ -10,14 +10,14 @@ orderform.submit(function(event){
   var service_id = "mail_ru";
   var template_id = "feedback";
 
-  orderform.find("button").text("Отправляется...");
+  orderform.find("#feedback-button").text("Отправляется...");
   emailjs.sendForm(service_id,template_id,"feedbackform")
   	.then(function(){ 
     	console.log("Sent!");
-       orderform.find("button").text("Отправлено");
+       orderform.find("#feedback-button").text("Отправлено");
     }, function(err) {
        console.log("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-       orderform.find("button").text("Oщибка");
+       orderform.find("#feedback-button").text("Oщибка");
     });
   return false;
 });

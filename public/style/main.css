@@ -186,7 +186,6 @@ footer {
 /*about*/
 
 .content-main {
-  outline: 2px solid red;
   width:589px;
   height: 483px;
   background-image: url(../image/about.png);
@@ -197,7 +196,6 @@ footer {
 }
 
 .content-about {
-  outline: 2px solid red;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -216,10 +214,15 @@ footer {
 .content-about div {
   margin-bottom: 15px;
 }
+.content-about div span {
+  margin-right: 18px;
+}
+
 .content-contacts{
   font-size: 16px;
   font-style: italic;
 }
+
 #feedbackform {
   padding-top:20px;
   padding-left: 20px;
@@ -227,26 +230,42 @@ footer {
 #feedbackform div{
   text-align: center;
 }
-.feedback{
-  width: 589px;
+
+
+
+
+.feedbackform{
   height: 200px;
   border:2px solid green;
+  padding: 15px 0 0 15px;
 }
+.feedback-label:nth-child(1) {
+  margin-right: 7px;
 
+
+}
 .feedback-input{
-  margin-left:55px;
+  margin-left:53px;
   width: 400px;
   height: 25px;
   border-color: darkgreen;
   margin-bottom: 15px;
+  background-color: transparent;
+  padding-left:5px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .feedback-textarea{
-  width: 550px;
+  width: 559px;
   height: 80px;
-  border-color: darkgreen;
+  border:2px solid darkgreen;
   margin-top: 10px;
+  background-color: transparent;
+  padding-left:5px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.feedback-button{
+#feedback-button{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color:#a0ac93;
@@ -254,5 +273,16 @@ footer {
     background-color: #004b06;
     width:140px;
     height: 25px;
-    margin-top:10px;
+    margin-top:20px;
+    cursor: pointer;
+}
+.feedback div{
+  text-align: center;
+}
+
+input {outline: none;}
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #bfc7b7 !important; /* Цвет фона */
+    -webkit-text-fill-color: black !important; /* цвет текста */
+    color: black !important; /* цвет текста */
 }
