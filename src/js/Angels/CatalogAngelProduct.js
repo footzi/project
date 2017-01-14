@@ -5,7 +5,6 @@ import ProductsAngelPage1 from "../Data/ProductsAngelPage1.js";
 var Carousel = require('react-responsive-carousel').Carousel;
 
 
-
 let ProductAngel = React.createClass({
     
     getInitialState() {
@@ -82,8 +81,6 @@ let ProductAngel = React.createClass({
                 
                                 <form id="orderform" method="post">
                                 <p className="orderform-title">Заказать / Уточнить детали</p>
-                                
-
                                  <div>
                                     <input className="orderform-id" type="text" name="id"  readonly  value={product.id}/> <br />
 
@@ -105,7 +102,9 @@ let ProductAngel = React.createClass({
                                       
                                     
 
-                                 </div>  
+                                 </div> 
+
+                                  
                                  
                                     <button id="orderform-button">Отправить</button>
                                 </form>
@@ -134,4 +133,3 @@ let ProductAngel = React.createClass({
 
 
 export  default ProductAngel;
-

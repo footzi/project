@@ -13,6 +13,12 @@ html {
   background-size: 100% 100%;
   overflow-x: hidden;
 }
+@media (max-width:1170px) {
+html{
+  width: 1340px;
+}
+}
+
 body {
   background: url(../image/content-fon.png);
   width: 1170px;

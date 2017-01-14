@@ -8,10 +8,18 @@
 }
 html {
   height: 1865px;
+  
   background: url(../image/main-fon.jpg) no-repeat;
   background-position: center;
   background-size: 100% 100%;
   overflow-x: hidden;
+}
+
+@media (max-width:1170px) {
+html{
+  width: 1340px;
+}
+
 }
 body {
   background: url(../image/content-fon.png);
@@ -175,114 +183,4 @@ footer {
 .icons ul li {
   display: inline;
   margin-right: 15px;
-}
-
-
-
-
-
-
-
-/*about*/
-
-.content-main {
-  width:589px;
-  height: 483px;
-  background-image: url(../image/about.png);
-  position:relative;
-  top:170px;
-  left:160px;
-  padding: 30px;
-}
-
-.content-about {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  color:#2c4610;
-
-}
-.content-about  p {
-  font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  color:#2c4610;
-}
-.content-about  span {
-  margin:0;
-}
-.content-about div {
-  margin-bottom: 15px;
-}
-.content-about div span {
-  margin-right: 18px;
-}
-
-.content-contacts{
-  font-size: 16px;
-  font-style: italic;
-}
-
-#feedbackform {
-  padding-top:20px;
-  padding-left: 20px;
-}
-#feedbackform div{
-  text-align: center;
-}
-
-
-
-
-.feedbackform{
-  height: 200px;
-  border:2px solid green;
-  padding: 15px 0 0 15px;
-}
-.feedback-label:nth-child(1) {
-  margin-right: 7px;
-
-
-}
-.feedback-input{
-  margin-left:53px;
-  width: 400px;
-  height: 25px;
-  border-color: darkgreen;
-  margin-bottom: 15px;
-  background-color: transparent;
-  padding-left:5px;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.feedback-textarea{
-  width: 559px;
-  height: 80px;
-  border:2px solid darkgreen;
-  margin-top: 10px;
-  background-color: transparent;
-  padding-left:5px;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-#feedback-button{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#a0ac93;
-    font-size: 18px;
-    background-color: #004b06;
-    width:140px;
-    height: 25px;
-    margin-top:20px;
-    cursor: pointer;
-}
-.feedback div{
-  text-align: center;
-}
-
-input {outline: none;}
-input:-webkit-autofill {
-    -webkit-box-shadow: inset 0 0 0 50px #bfc7b7 !important; /* Цвет фона */
-    -webkit-text-fill-color: black !important; /* цвет текста */
-    color: black !important; /* цвет текста */
 }
