@@ -2,6 +2,13 @@
   font-family: Century;
   src: url(../fonts/CENTURY.TTF);
 }
+@font-face {
+	font-family: 'Cambria';
+	src: url('../fonts/cambria.eot');
+	src: local('☺'), url('../fonts/cambria.woff') format('woff'), url('../fonts/cambria.ttf') format('truetype'), url('../fonts/cambria.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 html {
   height: 1865px;
   

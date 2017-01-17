@@ -59,7 +59,7 @@
 .button-link-catalog{text-decoration:none;color:black}.button-link-catalog:hover{text-decoration:none;color:#1f5c13}
 #b-popup{display:none;left:0;width:100%;min-height:100%;background-color:rgba(0,0,0,0.5);overflow:hidden;position:fixed;top:0;z-index:3}
 #b-popup .b-popup-content{background-color:#bfc7b7;margin:40px auto 0 auto;width:480px;height:580px;padding:10px;border-radius:5px;box-shadow:0 0 10px #000}
-.b-popup-content img{float:right}.not-aviable{font-size:30px}@font-face{font-family:Astoria Deco;src:url("../public/fonts/Astoria Deco.ttf")}
+.b-popup-content img{float:right}.not-aviable{font-size:30px}@font-face{font-family:'astoria_decomedium';src:url("astoria_deco-webfont.eot");src:url("astoria_deco-webfont.eot?#iefix") format('embedded-opentype'),url("astoria_deco-webfont.woff2") format('woff2'),url("astoria_deco-webfont.woff") format('woff'),url("astoria_deco-webfont.ttf") format('truetype'),url("astoria_deco-webfont.svg#astoria_decomedium") format('svg');font-weight:normal;font-style:normal}
 .CatalogApp{margin:160px 85px 0 90px;outline:0 solid red}.column-left{width:300px;display:inline-block;outline:0 solid yellow;position:relative;right:50px;top:-20px}
 .column-right{width:300px;outline:0 solid green;display:inline-block;position:relative;left:25px;top:-20px}
 .CatalogApp-item{margin-left:15px;margin-top:25px}.TitleImage{margin-top:135px}.TitleImage img{margin-bottom:23px}
