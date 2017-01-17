@@ -14,11 +14,12 @@ let CatalogApp = React.createClass ({
                   <Link to="/watch-page1"><img className="CatalogApp-item" src="../image/catalog/5.png" /></Link>
                </div>
                <div className="column-right">
-                   <img src="../image/catalog/title2.png" />
+                   <img src="image/catalog/title2.png" />
                    <img className="CatalogApp-item" src="../image/catalog/2.png" />
                    <img className="CatalogApp-item" src="../image/catalog/4.png" />
                    <img className="CatalogApp-item" src="../image/catalog/6.png" />
                </div>
+               
             
             </div>
         )

@@ -11,7 +11,19 @@
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.18.2",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.3.0",
     "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "history": "^4.5.1",
     "jquery": "*",
     "less": "*",
     "materialize": "^1.0.0",
@@ -26,7 +38,8 @@
     "react-popup": "^0.4.2",
     "react-responsive-carousel": "^3.0.21",
     "react-router": "*",
-    "url-loader": "^0.5.7"
+    "url-loader": "^0.5.7",
+    "vinyl-source-stream": "^1.1.0"
   },
   "devDependencies": {
     "autoprefixer-loader": "*",
@@ -36,6 +49,8 @@
     "emailjs": "^1.0.8",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "*",
+    "gulp-babel": "^6.1.2",
+    "gulp-minify": "0.0.14",
     "json-loader": "*",
     "less-loader": "*",
     "react-hot-loader": "*",
