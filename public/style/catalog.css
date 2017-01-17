@@ -1,5 +1,4 @@
-@font-face{font-family:Cambria;src:url(../fonts/cambria.ttc)}@font-face{font-family:Century;src:url(../fonts/CENTURY.TTF)}
-html{height:2209px;background:url(../image/catalog-fon.jpg);background-position:center;background-size:100% 100%;overflow-x:hidden}
+@font-face{font-family:Century;src:url(../fonts/CENTURY.TTF)}html{height:2209px;background:url(../image/catalog-fon.jpg);background-position:center;background-size:100% 100%;overflow-x:hidden}
 @media(max-width:1170px){html{width:1340px}}body{background:url(../image/content-fon.png);width:1170px;height:2209px;margin-left:auto;margin-right:auto;outline:0 solid red;margin-top:0}
 header{height:220px;outline:0 solid red}.logo{outline:0 solid red;text-align:center;position:relative;z-index:2;top:-5px}
 .banner{outline:0 solid blue;text-align:center;position:relative;top:-30px;z-index:1}
