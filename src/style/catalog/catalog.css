@@ -11,10 +11,6 @@
 }
 
 @font-face {
-  font-family: "BScript";
-  src: url(../fonts/BScript.ttf);
-}
-@font-face {
 	font-family: 'Astoria Deco';
 	src: url('../fonts/Astoria Deco.eot');
 	src: local('☺'), url('../fonts/Astoria Deco.woff') format('woff'), url('../fonts/Astoria Deco.ttf') format('truetype'), url('../fonts/Astoria Deco.svg') format('svg');
@@ -130,7 +126,7 @@ header {
   float: left;
 }
 .cart p {
-  font-family: BScript;
+  font-family: Cambria;
   font-size: 20px;
   font-weight: bold;
   color: #1f5c13;
@@ -192,8 +188,10 @@ footer {
   background: url(../image/footer.png) no-repeat;
   width: 1170px;
   height: 518px;
-  position: relative;
-  top: -412px;
+  /*position: relative;
+  top: -412px;*/
+  position:absolute;
+  top:1346px;
   z-index: 1;
 }
 .icons {
