@@ -1,8 +1,4 @@
 @font-face {
-  font-family: Century;
-  src: url(../fonts/CENTURY.TTF);
-}
-@font-face {
 	font-family: 'Cambria';
 	src: url('../fonts/cambria.eot');
 	src: local('☺'), url('../fonts/cambria.woff') format('woff'), url('../fonts/cambria.ttf') format('truetype'), url('../fonts/cambria.svg') format('svg');
@@ -18,6 +14,14 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Century';
+	src: url('../fonts/Century.eot');
+	src: local('☺'), url('../fonts/Century.woff') format('woff'), url('../fonts/Century.ttf') format('truetype'), url('../fonts/Century.svg') format('svg');
+	font-weight: normal;
+}
+
+
 html {
   height: 2209px;
   background: url(../image/catalog-fon.jpg);
@@ -27,7 +31,7 @@ html {
 }
 @media (max-width:1170px) {
 html{
-  width: 1340px;
+  width: 1450px;
 }
 }
 
@@ -188,10 +192,8 @@ footer {
   background: url(../image/footer.png) no-repeat;
   width: 1170px;
   height: 518px;
-  /*position: relative;
-  top: -412px;*/
   position:absolute;
-  top:1346px;
+  top:1700px;
   z-index: 1;
 }
 .icons {
@@ -209,7 +211,18 @@ footer {
 }
 
 
-
+@-moz-document url-prefix() {
+  #frame {
+  background: url(../image/catalog-frame.png) no-repeat;
+  position: absolute;
+  float: right;
+  width: 957px;
+  height: 1370px;
+  top: 278px;
+  left:259px;
+  outline:0px solid red;
+}
+}
 
 
 

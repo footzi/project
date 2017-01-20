@@ -20,7 +20,7 @@ html {
 
 @media (max-width:1170px) {
 html{
-  width: 1340px;
+  width: 1450px;
 }
 
 }
@@ -123,11 +123,12 @@ header {
 }
 .frame {
   background: url(../image/frame.png) no-repeat;
-  position: relative;
+  position: absolute;
   float: right;
   width: 957px;
   height: 960px;
-  top: -845px;
+  top: 278px;
+  left:257px;
   outline:0px solid red;
 }
 .text {
@@ -170,10 +171,12 @@ footer {
   background: url(../image/footer.png) no-repeat;
   width: 1170px;
   height: 518px;
-  position: relative;
-  top: -426px;
+  position: absolute;
+  top: 1345px;
   z-index: 1;
 }
+
+
 .icons {
   outline: 0px solid blue;
   position: absolute;
@@ -186,4 +189,17 @@ footer {
 .icons ul li {
   display: inline;
   margin-right: 15px;
+}
+
+@-moz-document url-prefix() {
+  .frame {
+  background: url(../image/frame.png) no-repeat;
+  position: absolute;
+  float: right;
+  width: 957px;
+  height: 960px;
+  top: 278px;
+  right:258px;
+  outline:0px solid red;
+}
 }
